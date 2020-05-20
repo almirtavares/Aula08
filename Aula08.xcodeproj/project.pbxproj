@@ -13,6 +13,8 @@
 		F11E42512474901B00DCBD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11E424F2474901B00DCBD4C /* Main.storyboard */; };
 		F11E42532474901C00DCBD4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11E42522474901C00DCBD4C /* Assets.xcassets */; };
 		F11E42562474901C00DCBD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11E42542474901C00DCBD4C /* LaunchScreen.storyboard */; };
+		F11E426124749B4E00DCBD4C /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E425F24749B4E00DCBD4C /* YellowViewController.swift */; };
+		F11E426224749B4E00DCBD4C /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11E426024749B4E00DCBD4C /* YellowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F11E42522474901C00DCBD4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11E42552474901C00DCBD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F11E42572474901C00DCBD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11E425F24749B4E00DCBD4C /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		F11E426024749B4E00DCBD4C /* YellowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F11E42522474901C00DCBD4C /* Assets.xcassets */,
 				F11E42542474901C00DCBD4C /* LaunchScreen.storyboard */,
 				F11E42572474901C00DCBD4C /* Info.plist */,
+				F11E425F24749B4E00DCBD4C /* YellowViewController.swift */,
+				F11E426024749B4E00DCBD4C /* YellowViewController.xib */,
 			);
 			path = Aula08;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11E426224749B4E00DCBD4C /* YellowViewController.xib in Resources */,
 				F11E42562474901C00DCBD4C /* LaunchScreen.storyboard in Resources */,
 				F11E42532474901C00DCBD4C /* Assets.xcassets in Resources */,
 				F11E42512474901B00DCBD4C /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11E426124749B4E00DCBD4C /* YellowViewController.swift in Sources */,
 				F11E424E2474901B00DCBD4C /* ViewController.swift in Sources */,
 				F11E424A2474901B00DCBD4C /* AppDelegate.swift in Sources */,
 				F11E424C2474901B00DCBD4C /* SceneDelegate.swift in Sources */,
